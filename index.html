@@ -8,39 +8,85 @@
 
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
 
+    <script src="https://kit.fontawesome.com/dddfdd8d73.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <!-- Ocupa 100% -->
     <!-- w-full= width:100% -->
     <section class="w-full py-10">
         <!-- mx-auto= centrr horizontalmente = margin:0 -->
-        <article class="w-9/12 mx-auto grid grid-cols-3 gap-4">
-            <figure>
-                <img src="https://images.unsplash.com/photo-1664575195621-a5f347e67554?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" alt="imagen">
+        <h1 class="mx-auto w-9/12 text-2xl mb-5">Proyecto</h1>
+        <article class="w-9/12 mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <figure class="rounded-md transform duration-300 hover:scale-110 cursor-pointer p-5 hover:bg-black hover:text-white">
+                <img class="rounded-md" src="https://images.unsplash.com/photo-1664575195621-a5f347e67554?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" alt="imagen">
                 <!-- Etiqueta para descripción de la imágen-->
                 <figcaption>
-                    <p>Oct/14, 2022</p>
-                    <p>Lorem ipsum</p>
+                    <p class="text-sm opacity-50">Oct/14, 2022</p>
+                    <p class="text-xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus porro assumenda, repellat perferendis et id in quod veritatis necessitatibus blanditiis, ullam maxime eligendi natus fugiat autem eos, laborum quisquam temporibus.</p>
                 </figcaption>
             </figure>
-            <figure>
-                <img src="https://images.unsplash.com/photo-1664575195621-a5f347e67554?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" alt="imagen">
+            <figure class="rounded-md transform duration-300 hover:scale-110 cursor-pointer p-5 hover:bg-black hover:text-white">
+                <img class="rounded-md" src="https://images.unsplash.com/photo-1664575195621-a5f347e67554?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" alt="imagen">
                 <!-- Etiqueta para descripción de la imágen-->
                 <figcaption>
-                    <p>Oct/14, 2022</p>
-                    <p>Lorem ipsum</p>
+                    <p class="text-sm opacity-50">Oct/14, 2022</p>
+                    <p class="text-xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, totam facilis deserunt itaque, ad maxime nulla fugiat provident expedita aperiam quia voluptatum quasi adipisci porro, error omnis a officiis esse!</p>
                 </figcaption>
             </figure>
-            <figure>
-                <img src="https://images.unsplash.com/photo-1664575195621-a5f347e67554?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" alt="imagen">
+            <figure class="rounded-md transform duration-300 hover:scale-110 cursor-pointer p-5 hover:bg-black hover:text-white">
+                <img class="rounded-md" src="https://images.unsplash.com/photo-1664575195621-a5f347e67554?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" alt="imagen">
                 <!-- Etiqueta para descripción de la imágen-->
                 <figcaption>
-                    <p>Oct/14, 2022</p>
-                    <p>Lorem ipsum</p>
+                    <p class="text-sm opacity-50">Oct/14, 2022</p>
+                    <p class="text-xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, totam facilis deserunt itaque, ad maxime nulla fugiat provident expedita aperiam quia voluptatum quasi adipisci porro, error omnis a officiis esse!</p>
                 </figcaption>
             </figure>
-        
         </article>
     </section>
+
+    <section>
+        <h2 class="mx-auto w-9/12 text-2xl mb-5 text-center">Habilidades</h2>
+        <article class="w-9/12 mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <figure class="rounded-md transform duration-300 hover:scale-110 cursor-pointer p-5 text-center">
+                <div>
+                <i class="text-white bg-blue-700 p-5 rounded-md fa-solid fa-pen-ruler fa-4x"></i>
+                </div>
+                <figcaption>
+                    <p class="text-xl text-center p-2">Diseño a la medida</p>
+                </figcaption>
+            </figure>
+            <figure class="rounded-md transform duration-300 hover:scale-110 cursor-pointer p-5 text-center">
+                <div>
+                <i class="text-white bg-teal-400 p-5 rounded-md fa-solid fas fa-desktop fa-4x"></i>
+                </div>
+                <figcaption>
+                    <p class="text-xl text-center p-2">Diseño web</p>
+                </figcaption>
+            </figure>
+            <figure class="rounded-md transform duration-300 hover:scale-110 cursor-pointer p-5 text-center">
+                <div>
+                <i class="text-white bg-yellow-300 p-5 rounded-md fa-solid fas fa-icons fa-4x"></i>
+                </div>
+                <figcaption>
+                    <p class="text-xl text-center p-2">Contenido multimedia</p>
+                </figcaption>
+            </figure>
+        </article>
+    </section>
+
+    <footer class="w-full py-7 bg-black">
+        <div class="mx-auto w-9/12 flex justify-between">
+            <p class="text-white">Juliana</p>
+            <div class="flex">
+                <a class="mr-3 text-white h-10 w-10 duration-300 bg-gray-700 hover:bg-gray-800 items-center flex justify-center rounded-full" href="">
+                    <i class="text-xl fa-brands fa-facebook"></i>
+                </a>
+                <a class="mr-3 text-white h-10 w-10 duration-300 bg-gray-700 hover:bg-gray-800 items-center flex justify-center rounded-full" href="">
+                    <i class="text-xl fa-brands fa-instagram"></i>
+                </a>
+            </div>  
+        </div>
+    </footer>
 </body>
 </html>
